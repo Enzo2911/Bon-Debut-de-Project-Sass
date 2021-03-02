@@ -1,22 +1,32 @@
 ## Base scss 
 
-### Pour un bon debut de project 
+<a><img src="https://github.com/Enzo2911/Bonne-Base-Pour-Mes-Project/blob/main/Bonne%20Base%20SCSS/img%20readme/Pour_un_bon_Debut_de_Project-removebg-preview.png"></a>
+<center>
 
 - Suffit de lancé npm i
 
 - Yarn sass 
 
-<p> et voila bon project a toi </p>
+- Now Good Luck with your project. :)
+</center>
 
-<a><img src="https://github.com/Enzo2911/Bonne-Base-Pour-Mes-Project/blob/main/Bonne%20Base%20SCSS/Bug__-removebg-preview.png"></a>
+<a><center><img src="https://github.com/Enzo2911/Bonne-Base-Pour-Mes-Project/blob/main/Bonne%20Base%20SCSS/img%20readme/Bug__-removebg-preview.png"></center></a>
 
 <h1> Solution 1 : </h1>
 
-clear cache 
+```
+npm cache clean --force
 
-npm install -g <module>
+npm install <module> or sudo
+``` 
 
 <h1> Solution 2 : </h1>
+
+```
+npm install -g <module> or sudo 
+``` 
+
+<h1> Solution 3 : </h1>
 
 ```
 mkdir ~/.npm-global
@@ -25,11 +35,13 @@ export PATH=~/.npm-global/bin:$PATH ### Add this to the end of the file ~/.profi
 source ~/.profile
 ``` 
 
-<h1> Solution 3 radical : </h1>
+<h1> Solution 4 radical : </h1>
 
+```
 npm install --unsafe-perm -g <module>
+``` 
 
-si vous ne voulez plus avoir le problem (je ne sais pas si c'est une faille de sécurité).
+Si vous ne voulez plus avoir le problem (je ne sais pas si c'est une faille de sécurité).
 npm config set unsafe-perm true
 or sudo npm config set unsafe-perm true
 
