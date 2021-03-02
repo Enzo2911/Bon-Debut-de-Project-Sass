@@ -1,0 +1,16 @@
+{
+  "name": "first_project",
+  "version": "1.0.0",
+  "description": "Animation with GreenSock",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": "https://github.com/Enzo2911/GreenSock-First-Project",
+  "author": "Enzo2911",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
